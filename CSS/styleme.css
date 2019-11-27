@@ -16,7 +16,7 @@ ul,ol,p {
   font-size: 15px;
 }
 #highlight{
-    color: gold;
+    color: goldenrod;
 }
 
 a {
@@ -28,10 +28,14 @@ a:hover {
    text-decoration: underline; 
 }
 
-.mydropcaps{
+.caps{
     
     font-size: 18px;
   font-weight: bold;
   vertical-align: middle;
   padding: 1.8px;
+}
+.shout{
+  color: goldenrod;
+
 }
