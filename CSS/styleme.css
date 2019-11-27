@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(60, 70,60);
+}
+h1 {
+    color: lightblue;
+     text-align: center;
+    
+  }
+  h3 {
+    color: greenyellow;
+    
+  }
+ul,ol,p {
+    color: white;
+    font-family: verdana;
+  font-size: 15px;
+}
+#highlight{
+    color: gold;
+}
+
+a {
+   color: #1e7ec8;
+   text-decoration: none; 
+}
+
+a:hover {
+   text-decoration: underline; 
+}
+
+.mydropcaps{
+    
+    font-size: 18px;
+  font-weight: bold;
+  vertical-align: middle;
+  padding: 1.8px;
+}
