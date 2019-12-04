@@ -1,0 +1,23 @@
+
+.label{
+    width: 150px;
+    display: inline-block;
+}
+
+select{
+    width: 173px; 
+    height: 22px;
+}
+
+div{
+    border: 0.5px solid gray;
+    width: 420px;
+    height: 300px;
+    padding: 20px;
+    box-shadow: 10px 10px 5px #888888;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    background-image: url("review/white.jpg"); 
+    border-radius: 5px;
+}

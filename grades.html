@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Retrieve Grade</title>
+    <link rel="stylesheet" type="text/css" href="grades.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div>
+        <h1>Retrieve your grade</h1>
+
+        <form action="http://mumstudents.org/params.php" method="post">
+
+            <p>
+                <label class="label">Name:</label>
+                <input type="text" name="name" placeholder="Enter your name!" required="required" />
+            </p>
+
+            <p><label class="label">Student ID: </label>
+                <input type="text" name="ids" placeholder="Enter your ID!" required="required" />
+            </p>
+
+            <p>
+                <label class="label">Choose Assignment:</label>
+                <select name="Assignment">
+                    <option>Assignment01</option>
+                    <option>Assignment02</option>
+                    <option>Assignment03</option>
+                    <option>Assignment04</option>
+                </select>
+            </p>
+
+            <p>
+                <label class="label">Choose Intake:</label>
+                <label> <input type="radio" name="entry" /> JAN </label>
+                <label> <input type="radio" name="entry" /> APR</label>
+                <label> <input type="radio" name="entry" /> AUG</label>
+                <label> <input type="radio" name="entry" /> OCT</label>
+
+            </p>
+
+            <p>
+                <label><input type="checkbox" name="check" /> I confirm that I am looking up my on Grade</label>
+            </p>
+            <input type="submit" name="submit" value="Get Grade!" />
+        </form>
+    </div>
+</body>
+
+</html>
