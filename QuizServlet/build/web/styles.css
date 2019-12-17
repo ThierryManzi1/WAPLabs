@@ -1,0 +1,10 @@
+form, .final{
+    border: 2px solid blue;
+    width: 25%;
+    margin: auto;
+    padding: 10px;
+}
+
+.final{
+    width: 35% !important;
+}
