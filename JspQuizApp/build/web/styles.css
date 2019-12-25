@@ -1,0 +1,25 @@
+form, .res{
+    border: 2px solid black;
+    width: 35%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+input[type=text]{
+    width: 30px;
+}
+
+input[type=submit]{
+    width: 25%;
+    height: 50px;
+    border: none;
+    background-color: auto;
+    color: auto;
+    text-align: center;
+}
+
+
+
+.res{
+    width: 25% !important;
+}

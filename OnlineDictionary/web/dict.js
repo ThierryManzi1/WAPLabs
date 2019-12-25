@@ -33,9 +33,9 @@
                 type: "POST",
                 url: "DictSevlet",
                 data: {"Requestd": d},
-                success: function (data) {
+                success: function (data2) {
 
-                    $("#result").html(data);
+                    $("#result").html(data2);
                 },
                 error: function (e) {
                     $("#result").html(e.textResponse);

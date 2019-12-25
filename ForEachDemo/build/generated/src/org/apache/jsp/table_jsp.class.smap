@@ -1,0 +1,15 @@
+SMAP
+table_jsp.java
+JSP
+*S JSP
+*F
++ 0 table.jsp
+table.jsp
+*L
+2,14:54
+15:92,11
+16:103
+17,2:104,3
+19,2:110
+20,4:70
+*E
